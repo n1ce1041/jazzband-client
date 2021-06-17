@@ -1,0 +1,115 @@
+.Tutorbox {
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  border-width: 20rem;
+  box-shadow: 5px 6px #888888;
+  text-transform: uppercase;
+  background: #ffffff;
+  position: relative;
+  color: #000000;
+  grid-template:
+    "image ratings ratings"
+    "image ratings ratings"
+    "image reviews reviews"
+    "reviewbox reviewbox reviewbox";
+}
+
+.Image {
+  grid-area: image;
+  display: flex;
+  flex-direction: column;
+  color: rgb(56, 111, 231);
+  align-items: center;
+  font-weight: bolder;
+  font-size: calc(10px + 1vmin);
+}
+
+.font {
+  font-family: "comic_zine_otregular";
+}
+
+.Reviewbox {
+  grid-area: reviewbox;
+  margin: 10px;
+}
+
+img {
+  max-height: 10rem;
+  max-width: 7rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  padding: 10px;
+}
+
+.Ratings {
+  grid-area: ratings;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  font-family: "comic_zine_otregular";
+  margin-left: 10px;
+}
+
+.Reviews {
+  grid-area: reviews;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: calc(10px + 0.5vmin);
+  margin-left: 10px;
+}
+
+.SpaceBetween,
+button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+body {
+  padding: 2rem;
+  font-family: Helvetica;
+  background: #f3f3f3;
+}
+
+@font-face {
+  font-family: "comic_zine_otregular";
+  src: url("./fonts/comic_zine_ot-webfont.eot");
+  src: url("./fonts/comic_zine_ot-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/comic_zine_ot-webfont.woff") format("woff"),
+    url("./fonts/comic_zine_ot-webfont.ttf") format("truetype"),
+    url("./fonts/comic_zine_ot-webfont.svg#comic_zine_otregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+p{
+  font-family: Helvetica;
+  
+}
+.tutorstars{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button{
+  margin-bottom: 10px
+}
+
+@media screen and (min-width: 500px){
+  .body{
+  font-size: calc(10px + 5vmin);
+  }
+}
+
+.reviewbox{
+  display:flex;
+max-width: 10rem;
+}
+
+#text{
+  max-width: 10rem;
+  }
