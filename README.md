@@ -1,6 +1,8 @@
 # Getting Started with Jazz Band Ratings App
 
-Deployed @ *https://jazz-client.herokuapp.com/dashboard*
+## Deployment 
+
+This app is live @ https://jazz-client.herokuapp.com/dashboard
 
 ## Local development
 
