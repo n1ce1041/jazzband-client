@@ -1,9 +1,5 @@
 # Getting Started with Jazz Band Ratings App
 
-## Deployment 
-
-This app is live @ https://jazz-client.herokuapp.com/dashboard
-
 ## Local development
 
 <p> For local development, you must run the accompanying API and database - find it at https://github.com/Viliami-2tone/jazzband-server </p>
